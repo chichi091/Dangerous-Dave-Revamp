@@ -114,8 +114,8 @@ public class PlayerManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Jet();
-		Flip ();
-		MovePlayer (speed);
+		Flip();
+		MovePlayer(speed);
 		//playWalkingAnim ();
 
 		leftKeyPressed = Input.GetKey(KeyCode.LeftArrow);
@@ -129,7 +129,7 @@ public class PlayerManager : MonoBehaviour {
 
 		playerPosition = PlayerDave.transform;
 
-		if (Input.GetKeyDown (KeyCode.LeftControl) && Time.time > GameStatus.nextFire && GameStatus.isGunPickedUp) {
+		if (Input.GetKeyDown(KeyCode.LeftControl) && Time.time > GameStatus.nextFire && GameStatus.isGunPickedUp) {
 			Fire();
 		}
 
@@ -137,21 +137,21 @@ public class PlayerManager : MonoBehaviour {
 			print("Fuel is empty");
 			GameStatus.isAltButtonPressed = false;
 			GameStatus.isJetPackOn = false;
-			JetFuelBar.SetActive (false);
+			JetFuelBar.SetActive(false);
 			speed = 0;
 			rb.gravityScale = 1;
-			anim.SetInteger ("State", 0);
+			anim.SetInteger("State", 0);
 		}
 			
 		//JetPackControls
 		if (GameStatus.isJetPackOn && GameStatus.isJetPackPickedUp && !isPlayerFrozen) {
 			//<-----
 			if (Input.GetKey(KeyCode.LeftArrow) || GameStatus.isJetLeftButtonPressed) {
-				JetWillFlyLeft ();
+				JetWillFlyLeft();
 			}
 			//----->
 			if (Input.GetKey(KeyCode.RightArrow) || GameStatus.isJetRightButtonPressed) {
-				JetWillFlyRight ();
+				JetWillFlyRight();
 			}
 
 			if (Input.GetKey(KeyCode.UpArrow) || GameStatus.isJetUpButtonPressed) {
@@ -167,7 +167,7 @@ public class PlayerManager : MonoBehaviour {
 		}
 
 		if (Input.GetKeyDown(KeyCode.Escape)) {
-			GoToMainMenu ();
+			GoToMainMenu();
 		}
 
 		if (rightKeyPressed && !GameStatus.isJetPackOn) {
@@ -175,14 +175,16 @@ public class PlayerManager : MonoBehaviour {
 		}
 
 		if ((leftKeyReleased || rightKeyReleased) && !GameStatus.isJetPackOn) {
-			LeftOrRightButtonGotReleased ();
+			LeftOrRightButtonGotReleased();
 		}
 			
 		if (jumpButtonPressed && !GameStatus.isJetPackOn) {
-			JumpButtonPressed ();
+			// console.log("Jump button pressed");
+			JumpButtonPressed();
 		}
 
 		if (jumpButtonReleased) {
+			// console.log("released");
 			JumpButtonReleased();
 		}
 	}

@@ -26,12 +26,12 @@ public class LevelComplete : MonoBehaviour {
 	 //Use this for initialization
 	void Start () {
 		currentLevel.text = "LEVEL 0" + GameStatus.currentLevel.ToString();
-		if (GameStatus.currentLevel == 4) {
+		if (GameStatus.currentLevel == 3) {
 			congratMessage.text = "YES! YOU FINISHED THE GAME!";
-		} else if (GameStatus.currentLevel == 3) {
+		} else if (GameStatus.currentLevel == 2) {
 			congratMessage.text = "THIS IS THE LAST LEVEL!!!";
 		} else {
-			congratMessage.text = "GOOD WORK! ONLY " + (4 - GameStatus.currentLevel).ToString () + " MORE TO GO!";
+			congratMessage.text = "GOOD WORK! ONLY " + (3 - GameStatus.currentLevel).ToString () + " MORE TO GO!";
 		}
 		//Advance level #
 		GameStatus.currentLevel += 1;
@@ -78,14 +78,14 @@ public class LevelComplete : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other) {
 		if (other.gameObject.tag == "door") {
-			if (GameStatus.currentLevel == 5) {
+			if (GameStatus.currentLevel == 4) {
 				GameStatus.score = 0;
 				GameStatus.lives = 3;
 				GameStatus.currentLevel = 1;
 				SceneManager.LoadScene ("GameOver");
 			} 
 			else {
-				SceneManager.LoadScene ("Level" + GameStatus.currentLevel);
+				SceneManager.LoadScene ("Level" + GameStatus.currentLevel + "_1");
 				GameStatus.score += 2000;
 		  }
 		}
