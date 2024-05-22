@@ -35,6 +35,7 @@ public class GameStatus : MonoBehaviour {
 	public static bool isEnemyFrozen = false;
 	public static bool isRichedTrigger = false;
 
+
 	//Game version 4.2 
 	//Last changes 10/28/2016
 
@@ -48,10 +49,6 @@ public class GameStatus : MonoBehaviour {
 
 	public void GoToLevel_3() {
 		ApplySettingsForLevel (3);
-	}
-
-	public void GoToLevel_4() { 
-		ApplySettingsForLevel (4);
 	}
 
 	public void GoToMainMenuScreen() { 
