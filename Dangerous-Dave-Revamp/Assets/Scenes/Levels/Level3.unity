@@ -20237,7 +20237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 717897208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44b69bea909e46c290adeb374588955, type: 3}
+  m_Script: {fileID: 11500000, guid: e040180933226da48b8261b05e2649ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_Bullet: {fileID: 1000012562920722, guid: 4fc588667b2184708b0660059c509f97, type: 3}
@@ -26195,7 +26195,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 936747476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d44b69bea909e46c290adeb374588955, type: 3}
+  m_Script: {fileID: 11500000, guid: e040180933226da48b8261b05e2649ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_Bullet: {fileID: 1000012562920722, guid: 78fd06c09fb4442c1ab69d1dd8558e5b, type: 3}
@@ -40164,9 +40164,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 10
-  m_Text: 'LEVEL 01
-
-'
+  m_Text: LEVEL 03
 --- !u!222 &1619950391
 CanvasRenderer:
   m_ObjectHideFlags: 0

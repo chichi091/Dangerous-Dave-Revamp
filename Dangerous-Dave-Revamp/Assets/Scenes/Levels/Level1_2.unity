@@ -11573,7 +11573,7 @@ GameObject:
   m_Layer: 0
   m_Name: DavePlayer
   m_TagString: Player
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -11885,7 +11885,7 @@ MonoBehaviour:
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
 --- !u!1 &1792758404
 GameObject:
   m_ObjectHideFlags: 0
