@@ -85,7 +85,7 @@ public class LevelComplete : MonoBehaviour {
 				SceneManager.LoadScene ("GameOver");
 			} 
 			else {
-				SceneManager.LoadScene ("Level" + GameStatus.currentLevel + "_1");
+				SceneManager.LoadScene ("Level" + GameStatus.currentLevel);
 				GameStatus.score += 2000;
 		  }
 		}
