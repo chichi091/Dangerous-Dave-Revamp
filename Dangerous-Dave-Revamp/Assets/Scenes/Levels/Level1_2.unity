@@ -9279,7 +9279,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.6864405
+  orthographic size: 3.7005649
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11885,7 +11885,7 @@ MonoBehaviour:
   groundCheckRadius: 0.1
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!1 &1792758404
 GameObject:
   m_ObjectHideFlags: 0
