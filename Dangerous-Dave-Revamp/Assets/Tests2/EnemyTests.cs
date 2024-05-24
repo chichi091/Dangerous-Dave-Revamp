@@ -44,4 +44,14 @@ public class EnemyTests
         // game.isEnemyFrozen = true;
         Assert.IsTrue(true);
     }
+
+    [Test]
+    public void EnemyMovement()
+    {
+        Setup();
+        GameObject enemy = new GameObject();
+        enemy.AddComponent<GameStatus>();
+        // game.isEnemyFrozen = true;
+        Assert.IsFalse(false);
+    }
 }

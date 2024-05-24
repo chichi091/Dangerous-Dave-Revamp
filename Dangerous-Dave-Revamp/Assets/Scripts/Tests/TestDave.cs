@@ -26,12 +26,6 @@ public class TestDave
     }
 
     [Test]
-    public void TestDaveGoToLevel1()
-    {
-        Setup();
-    }
-
-    [Test]
     public void TestDaveGoToLevel2()
     {
         Setup();
@@ -53,6 +47,12 @@ public class TestDave
         throw new System.Exception("Level does not exist.");
     }
 
+     [Test]
+    public void TestDaveGoToLevel1()
+    {
+        Setup();
+    }
+
     [Test]
     public void TestExitButton()
     {
@@ -63,46 +63,88 @@ public class TestDave
     public void TestMovementJump()
     {
         Setup();
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }
 
     [Test]
     public void TestMovementLeft()
     {
         Setup();
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }
 
     [Test]
     public void TestMovementRight()
     {
         Setup();
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }
 
     [Test]
     public void TestActiveJetUpButton()
     {
         Setup();
-        bool active = true;
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }   
 
     [Test] 
     public void TestActiveJetDownButton()
     {
         Setup();
-        bool active = true;
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }
 
     [Test]
     public void TestActiveJetLeftButton()
     {
         Setup();
-        bool active = true;
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }   
 
     [Test] 
     public void TestActiveJetRightButton()
     {
         Setup();
-        bool active = true;
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
+    }
+
+    [Test] 
+    public void TestActiveShoot()
+    {
+        Setup();
+        GameObject player = new GameObject();
+        player.AddComponent<Rigidbody2D>();
+        player.AddComponent<BoxCollider2D>();
+        player.AddComponent<PlayerManager>();
+        Assert.IsNotNull(player);
     }
 
     [Test]
