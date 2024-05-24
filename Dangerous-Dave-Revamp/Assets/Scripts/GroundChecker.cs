@@ -14,11 +14,12 @@ public class GroundChecker : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		grounded = Physics2D.OverlapCircle (groundCheck.position, groundCheckRadius, whatIsGround);
+		grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		// grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
 		GameStatus.isGrounded = grounded;
 	}
 }

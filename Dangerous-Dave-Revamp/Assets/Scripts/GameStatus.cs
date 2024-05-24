@@ -39,19 +39,18 @@ public class GameStatus : MonoBehaviour {
 	//Last changes 10/28/2016
 
 	public void NewGameButtonPressed() {
-		ApplySettingsForLevel (1);
+		int r = Random.Range (1, 4);
+		ApplySettingsForLevel (1, r);
 	}
 
 	public void GoToLevel_2() {
-		ApplySettingsForLevel (2);
+		// int r = Random.Range (1, 4);
+		ApplySettingsForLevel (2, 1);
 	}
 
 	public void GoToLevel_3() {
-		ApplySettingsForLevel (3);
-	}
-
-	public void GoToLevel_4() { 
-		ApplySettingsForLevel (4);
+		// int r = Random.Range (1, 4);
+		ApplySettingsForLevel (3, 1);
 	}
 
 	public void GoToMainMenuScreen() { 
@@ -59,13 +58,13 @@ public class GameStatus : MonoBehaviour {
 	}
 		
 	///apply settings for chosen level
-	private void ApplySettingsForLevel(int level) {
+	private void ApplySettingsForLevel(int level, int r) {
 		GameStatus.lives = 3;
 		GameStatus.currentLevel = level;
 		GameStatus.fillAmount = 1;
 		GameStatus.isGunPickedUp = false;
 		GameStatus.score = 0;
-		SceneManager.LoadScene ("Level" + level.ToString());
+		SceneManager.LoadScene ("Level" + level.ToString() + "_" + r.ToString());
 	}
 
 	public void GoToLevelSelectionScreen() {

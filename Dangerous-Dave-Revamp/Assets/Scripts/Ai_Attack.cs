@@ -31,10 +31,10 @@ public class Ai_Attack : MonoBehaviour {
 			allowToShoot = true;
 		}
 
-//		if (Time.time > nextFire && GameStatus.allowToFire) {
-//			Fire ();
-//			nextFire = Time.time + 0.3f;//Random.Range(1f, 2.0f);
-//		}
+		// if (Time.time > nextFire && GameStatus.allowToFire) {
+		// 	Fire ();
+		// 	nextFire = Time.time + 0.3f;//Random.Range(1f, 2.0f);
+		// }
 	}
 
 	void Fire() {
