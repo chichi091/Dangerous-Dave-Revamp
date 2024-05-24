@@ -14,17 +14,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+    x: 1.3333334
+    y: 181.33334
+    width: 99.333336
+    height: 120.66667
+  m_ShowMode: 0
+  m_Title: Test Runner
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  m_Maximized: 0
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
     x: 0
     y: 42.666668
     width: 1280
     height: 629.3334
   m_ShowMode: 4
-  m_Title: Game
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_Title: Console
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &2
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 99.333336
+    height: 120.66667
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 99.333336
+    height: 120.66667
+  m_MinSize: {x: 100, y: 121}
+  m_MaxSize: {x: 4000, y: 4021}
+  vertical: 0
+  controlID: 14986
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,8 +111,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 12}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -48,8 +122,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
---- !u!114 &3
+  controlID: 13966
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,18 +138,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 978.6667
+    x: 978
     y: 0
-    width: 301.3333
+    width: 302
     height: 579.3334
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &4
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,16 +166,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 240
-    height: 342.66666
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 242
+    height: 343.33334
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &5
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,24 +185,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 342.66666
-    width: 978.6667
-    height: 236.66672
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+    y: 343.33334
+    width: 978
+    height: 236.00003
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
+  - {fileID: 16}
+  - {fileID: 21}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,9 +215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 10}
+  - {fileID: 5}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -156,7 +230,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,8 +251,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 
---- !u!114 &8
+  m_LastLoadedLayoutName: Default
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,7 +273,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -212,19 +286,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
+  - {fileID: 13}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 978.6667
+    width: 978
     height: 579.3334
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
---- !u!114 &10
+  controlID: 13890
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,19 +311,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 11}
+  - {fileID: 7}
+  - {fileID: 14}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 978.6667
-    height: 342.66666
+    width: 978
+    height: 343.33334
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
---- !u!114 &11
+  controlID: 13891
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -259,25 +333,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 240
+    x: 242
     y: 0
-    width: 738.6667
-    height: 342.66666
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+    width: 736
+    height: 343.33334
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 18}
-  - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &12
+  - {fileID: 19}
+  - {fileID: 20}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,21 +359,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 240
-    y: 72.66667
-    width: 736.6667
-    height: 321.66666
+    x: 1.3333334
+    y: 181.33334
+    width: 99.333336
+    height: 99.66667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -311,43 +384,669 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 1107000010566914450, guid: afb9497b8bea749c9a5688971aeabaf7, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.43566108
-      e01: 0
-      e02: 0
-      e03: 138.07498
-      e10: 0
-      e11: 0.43566108
-      e12: 0
-      e13: 58.691235
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: afb9497b8bea749c9a5688971aeabaf7, type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 1107000010566914450, guid: afb9497b8bea749c9a5688971aeabaf7, type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 0
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &13
+  m_Spl:
+    ID: 15056
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 32
+    - 32
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 64
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 15}
+    m_NewResultList:
+    - id: 1005
+      uniqueId: '[Dangerous-Dave-Revamp][suite]'
+      name: Dangerous-Dave-Revamp
+      fullName: Dangerous-Dave-Revamp
+      resultStatus: 2
+      duration: 48.08757
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1027
+      uniqueId: '[Tests][C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 0.1859226
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[Dangerous-Dave-Revamp][suite]'
+    - id: 1006
+      uniqueId: Tests.dll/[Tests][TestDave][suite]
+      name: TestDave
+      fullName: TestDave
+      resultStatus: 2
+      duration: 0.1817282
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1027
+      parentUniqueId: '[Tests][C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1007
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.LoadGame]
+      name: LoadGame
+      fullName: TestDave.LoadGame
+      resultStatus: 1
+      duration: 0.0838675
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1017
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestActiveJetDownButton]
+      name: TestActiveJetDownButton
+      fullName: TestDave.TestActiveJetDownButton
+      resultStatus: 1
+      duration: 0.0007351
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1018
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestActiveJetLeftButton]
+      name: TestActiveJetLeftButton
+      fullName: TestDave.TestActiveJetLeftButton
+      resultStatus: 1
+      duration: 0.0004624
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1019
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestActiveJetRightButton]
+      name: TestActiveJetRightButton
+      fullName: TestDave.TestActiveJetRightButton
+      resultStatus: 1
+      duration: 0.0004602
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1016
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestActiveJetUpButton]
+      name: TestActiveJetUpButton
+      fullName: TestDave.TestActiveJetUpButton
+      resultStatus: 1
+      duration: 0.0004254
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1024
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestAltButton]
+      name: TestAltButton
+      fullName: TestDave.TestAltButton
+      resultStatus: 2
+      duration: 0.0035679
+      messages: 'System.Exception : Jetpack button not active.'
+      output: 
+      stacktrace: "  at TestDave.TestAltButton () [0x0001d] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:147
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1025
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestCtrlButton]
+      name: TestCtrlButton
+      fullName: TestDave.TestCtrlButton
+      resultStatus: 2
+      duration: 0.000706
+      messages: 'System.Exception : Gun button not active.'
+      output: 
+      stacktrace: "  at TestDave.TestCtrlButton () [0x0001d] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:159
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1008
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestDaveGoToLevel1]
+      name: TestDaveGoToLevel1
+      fullName: TestDave.TestDaveGoToLevel1
+      resultStatus: 1
+      duration: 0.0019227
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1009
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestDaveGoToLevel2]
+      name: TestDaveGoToLevel2
+      fullName: TestDave.TestDaveGoToLevel2
+      resultStatus: 1
+      duration: 0.000733
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1010
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestDaveGoToLevel3]
+      name: TestDaveGoToLevel3
+      fullName: TestDave.TestDaveGoToLevel3
+      resultStatus: 1
+      duration: 0.0006698
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1012
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestExitButton]
+      name: TestExitButton
+      fullName: TestDave.TestExitButton
+      resultStatus: 1
+      duration: 0.0005882
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1021
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestJetDownButton]
+      name: TestJetDownButton
+      fullName: TestDave.TestJetDownButton
+      resultStatus: 2
+      duration: 0.0006734
+      messages: 'System.Exception : JetPack not active.'
+      output: 
+      stacktrace: "  at TestDave.TestJetDownButton () [0x00006] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:119
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1022
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestJetLeftButton]
+      name: TestJetLeftButton
+      fullName: TestDave.TestJetLeftButton
+      resultStatus: 2
+      duration: 0.0006328
+      messages: 'System.Exception : JetPack not active.'
+      output: 
+      stacktrace: "  at TestDave.TestJetLeftButton () [0x00006] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:126
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1023
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestJetRightButton]
+      name: TestJetRightButton
+      fullName: TestDave.TestJetRightButton
+      resultStatus: 2
+      duration: 0.000791
+      messages: 'System.Exception : JetPack not active.'
+      output: 
+      stacktrace: "  at TestDave.TestJetRightButton () [0x00006] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:133
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1020
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestJetUpButton]
+      name: TestJetUpButton
+      fullName: TestDave.TestJetUpButton
+      resultStatus: 2
+      duration: 0.00067
+      messages: 'System.Exception : JetPack not active.'
+      output: 
+      stacktrace: "  at TestDave.TestJetUpButton () [0x00006] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:112
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1013
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestMovementJump]
+      name: TestMovementJump
+      fullName: TestDave.TestMovementJump
+      resultStatus: 1
+      duration: 0.0007266
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1014
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestMovementLeft]
+      name: TestMovementLeft
+      fullName: TestDave.TestMovementLeft
+      resultStatus: 1
+      duration: 0.0008551
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1015
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestMovementRight]
+      name: TestMovementRight
+      fullName: TestDave.TestMovementRight
+      resultStatus: 1
+      duration: 0.002926
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1026
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestNonexistentButton]
+      name: TestNonexistentButton
+      fullName: TestDave.TestNonexistentButton
+      resultStatus: 2
+      duration: 0.0030533
+      messages: 'System.Exception : Button does not exist.'
+      output: 
+      stacktrace: "  at TestDave.TestNonexistentButton () [0x00006] in C:\\Users\\chiar\\Documents\\GitHub\\Dangerous-Dave-Revamp\\Dangerous-Dave-Revamp\\Assets\\Scripts\\Tests\\TestDave.cs:168
+        \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <b11ba2a8fbf24f219f7cc98532a11304>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1011
+      uniqueId: Tests.dll/TestDave/[Tests][TestDave.TestNonexistentLevel]
+      name: TestNonexistentLevel
+      fullName: TestDave.TestNonexistentLevel
+      resultStatus: 2
+      duration: 0.0100693
+      messages: "  Expected string length 6 but was 31. Strings differ at index 0.\r\n 
+        Expected: \"Level4\"\r\n  But was:  \"InitTestScene638520697887768124\"\r\n 
+        -----------^\r\n"
+      output: 'Scene ''Level4'' couldn''t be loaded because it has not been added
+        to the build settings or the AssetBundle has not been loaded.
+
+        To
+        add a scene to the build settings use the menu File->Build Settings...
+
+'
+      stacktrace: 'at TestDave.TestNonexistentLevel () [0x0000b] in C:\Users\chiar\Documents\GitHub\Dangerous-Dave-Revamp\Dangerous-Dave-Revamp\Assets\Scripts\Tests\TestDave.cs:52
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/[Tests][TestDave][suite]
+    - id: 1033
+      uniqueId: '[Tests2][C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests2.dll][suite]'
+      name: Tests2.dll
+      fullName: C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests2.dll
+      resultStatus: 1
+      duration: 47.887764
+      messages: 
+      output: 'UnassignedReferenceException: The variable jetPackUIButton of UIButtonsControl
+        has not been assigned.
+
+        You probably need to assign the jetPackUIButton
+        variable of the UIButtonsControl script in the inspector.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: '[Dangerous-Dave-Revamp][suite]'
+    - id: 1028
+      uniqueId: Tests2.dll/[Tests2][EnemyTests][suite]
+      name: EnemyTests
+      fullName: EnemyTests
+      resultStatus: 1
+      duration: 0.2420607
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: '[Tests2][C:/Users/chiar/Documents/GitHub/Dangerous-Dave-Revamp/Dangerous-Dave-Revamp/Library/ScriptAssemblies/Tests2.dll][suite]'
+    - id: 1030
+      uniqueId: Tests2.dll/EnemyTests/[Tests2][EnemyTests.EnemyFire]
+      name: EnemyFire
+      fullName: EnemyTests.EnemyFire
+      resultStatus: 1
+      duration: 0.0178777
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        You are trying to create a MonoBehaviour using the ''new''
+        keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: Tests2.dll/[Tests2][EnemyTests][suite]
+    - id: 1029
+      uniqueId: Tests2.dll/EnemyTests/[Tests2][EnemyTests.EnemyInitialisation]
+      name: EnemyInitialisation
+      fullName: EnemyTests.EnemyInitialisation
+      resultStatus: 1
+      duration: 0.0402213
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        You are trying to create a MonoBehaviour using the ''new''
+        keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: Tests2.dll/[Tests2][EnemyTests][suite]
+    - id: 1031
+      uniqueId: Tests2.dll/EnemyTests/[Tests2][EnemyTests.EnemyKilled]
+      name: EnemyKilled
+      fullName: EnemyTests.EnemyKilled
+      resultStatus: 1
+      duration: 0.0021107
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        You are trying to create a MonoBehaviour using the ''new''
+        keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        You are trying to create a MonoBehaviour using the ''new''
+        keyword.  This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: Tests2.dll/[Tests2][EnemyTests][suite]
+    m_ResultText: TestMovementRight (0,003s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: b595aaee
+      m_LastClickedID: -290810443
+      m_ExpandedIDs: df60aba3ad2cbbaab6a81ab8b0aa59ed0c74bb10ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 15}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Dangerous-Dave-Revamp][suite]'
+      name: Dangerous-Dave-Revamp
+      fullName: Dangerous-Dave-Revamp
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: df60aba3ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -368,9 +1067,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 415.33334
-    width: 977.6667
-    height: 215.66672
+    y: 416
+    width: 977
+    height: 215.00003
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -398,18 +1097,18 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 57
+  m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes/Levels
-  m_LastFoldersGridSize: 57
+  m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\chiar\Documents\GitHub\Dangerous-Dave-Revamp\Dangerous-Dave-Revamp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 103.83383}
-    m_SelectedIDs: f09d0000
-    m_LastClickedID: 40432
-    m_ExpandedIDs: 00000000146c0000be9d0000c29d000000ca9a3b
+    scrollPos: {x: 0, y: 157.66663}
+    m_SelectedIDs: f0610000
+    m_LastClickedID: 25072
+    m_ExpandedIDs: 00000000d8610000da610000dc61000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,7 +1124,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -437,7 +1136,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000146c0000
+    m_ExpandedIDs: 00000000d8610000da610000dc61000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -464,8 +1163,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300005a7900008479000000000000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,7 +1180,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -489,11 +1188,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 24.333282}
-    m_GridSize: 57
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -513,9 +1212,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 978.6667
+    x: 978
     y: 72.66667
-    width: 300.3333
+    width: 301
     height: 558.3334
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -540,7 +1239,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -562,8 +1261,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 72.66667
-    width: 239
-    height: 321.66666
+    width: 241
+    height: 322.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -576,10 +1275,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 403.33334}
-      m_SelectedIDs: f89d0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 36fafbff78fbfbff66fcfbff6a00fcffa403fcff7608fcffba08fcffd40efcff2a13fcff9e13fcffa213fcff0614fcff1814fcff2214fcff2814fcff3414fcff4a14fcff361cfcffbc1ffcff0020fcff2226fcff802afcfffc2afcff082bfcff742bfcff8e2bfcffa02bfcffae2bfcffc22bfcffe02bfcffee30fcff8e35fcff963dfcffba42fcffb843fcfff847fcff9848fcffac4dfcff624efcff064ffcff9453fcff4257fcff5258fcffd459fcff586bfcffec6efcff306ffcff2671fcff2a71fcffa671fcffb871fcffc271fcffc871fcffd471fcffea71fcff8673fcff9a9dfcffdc9ffcffd006fdffa208fdffd821fdff3e31fdfff231fdff3437fdff8e37fdff2638fdff9a39fdff7e3ffdffbe3ffdff5052fdff2457fdff285bfdff625bfdff7472fdff0a75fdff127afdff3e89fdff8a9efdff7cc7fdff64e9fdff9ee9fdffecebfdff20f1fdff64f1fdff5af3fdff5ef3fdffd6f3fdffe0f3fdffeaf3fdfff0f3fdfffcf3fdff12f4fdff56fbfdffe6fefdff2afffdff2001feff2401feff9c01feffa601feffb001feffb601feffc201feffd801feff6e04fefff407feff3a08feff380afeff440afeffc40afeffd60afeffe80afefff60afeff0a0bfeff280bfeff0e0efeff5a0efeffa00ffeff8c2bfeffaa2cfeff1632feff7236feffd43bfefffe3cfeffa840feff6441feff724cfeffaa4dfeffd656feff8a57feffd457feff025efeffa861feff9481feffae83feff1087feff5087feffe887feff2888feffc088feff0089feff9889feffd889feff708afeffb08afeff488bfeff888bfeff208cfeff008dfeffa88dfefff28dfeff7ae2feff60e4feff0802ffffc217ffff0218ffff7e1effff5237ffff7486ffff8487ffff5e96ffff9498ffff9a9affffda9affff489cffff3ea6ffff38c5ffff10d4ffff70d4ffffb2d4ffff30d8ffff76d8ffff02daffff0cdaffff12daffff1edaffff34dafffff6e5ffff2ee9ffff74e9ffffcee9ffffb4eaffff66f1ffffa8f2ffffaaf7fffff2f7ffff80f9ffff88f9ffff8ef9ffff9af9ffffb0f9ffff16fbffff6cb6000022b70000cabb000044bc000036df0000f0e2000000e4000094e4000056080100be0c0100fe0d01006cbb01009cbc0100febc010004bd010032c401003cc4010052c40100c2dd010052f101009ef20100d407020084090200b2090200c0090200860e0200940e02007c190200de190200e4190200c81a0200cc1b02002e1c0200bc220200a0230200a83202008c330200644602006a46020052480200526e02000c7102005872020060780200c2780200c8780200ae7a020040180300b81d0300b436030036440300664603000c4a03001e6d0300f6740300b68d03009a8f0300c48f03002a9f0400809f0400f49f040016a0040032a0040040a1040046a1040080a1040090a204007aa30400e8a3040012a404003ea4040078a40400c2a4040028a504000ea6040056a60400b8a704004a270500c05d05002862050068630500f8650500de7505002c760500c6760500547a0500407c05007c7c0500d67d050084c90500a2ca0500a8cb0500d8cb050084cc060040da0600ecda060070dc060088dc0600
+      m_ExpandedIDs: 4cdffeff92dffeff32e3feffc0e7feff2ceafeff72eafeff54ecfeff42fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,7 +1294,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -603,7 +1302,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -623,10 +1322,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 240
+    x: 242
     y: 72.66667
-    width: 736.6667
-    height: 321.66666
+    width: 734
+    height: 322.33334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -641,8 +1340,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -169.33331, y: -26.666656}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -169.33337, y: -26.666656}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -654,9 +1353,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -141, y: -171.66666}
+      snapOffset: {x: -141, y: 149}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 1
       id: unity-grid-and-snap-toolbar
       index: 1
       layout: 1
@@ -693,7 +1392,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.666666}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -736,7 +1435,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Light Settings
-      index: 1
+      index: 2
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -900,19 +1599,6 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: UnityEditor.SceneViewCameraOverlay
-      index: 11
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
       displayed: 0
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
@@ -931,7 +1617,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Tilemap Focus
-      index: 2
+      index: 1
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -944,20 +1630,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Path
-      index: 10
-      layout: 4
-      size: {x: 0, y: 0}
-      sizeOverriden: 0
-    - dockPosition: 1
-      containerId: overlay-container--right
-      floating: 0
-      collapsed: 0
-      displayed: 0
-      snapOffset: {x: 48, y: 48}
-      snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
-      id: APV Overlay
-      index: 11
+      index: 9
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -970,7 +1643,7 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
-      index: 9
+      index: 10
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -985,9 +1658,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 8.825929, y: 0.96568114, z: 0.022879519}
+    m_Target: {x: -8.74913, y: 3.577756, z: -0.073395304}
     speed: 2
-    m_Value: {x: 8.825929, y: 0.96568114, z: 0.022879519}
+    m_Value: {x: -8.74913, y: 3.577756, z: -0.073395304}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1031,15 +1704,15 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
-    m_gridOpacity: 0.508
+    m_gridOpacity: 0.5
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.6872163
+    m_Target: 17.314688
     speed: 2
-    m_Value: 7.6872163
+    m_Value: 17.314688
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1064,7 +1737,105 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 242
+    y: 72.66667
+    width: 734
+    height: 322.33334
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 734, y: 301.33334}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -244.66667
+    m_HBaseRangeMax: 244.66667
+    m_VBaseRangeMin: -100.44445
+    m_VBaseRangeMax: 100.44445
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 734
+      height: 301.33334
+    m_Scale: {x: 1.5, y: 1.5}
+    m_Translation: {x: 367, y: 150.66667}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -244.66667
+      y: -100.44445
+      width: 489.33334
+      height: 200.8889
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1101, y: 483.5}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1085,9 +1856,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 415.33334
-    width: 977.6667
-    height: 215.66672
+    y: 416
+    width: 977
+    height: 215.00003
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1098,103 +1869,3 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 240
-    y: 72.66667
-    width: 736.6667
-    height: 321.66666
-  m_SerializedDataModeController:
-    m_DataMode: 0
-    m_PreferredDataMode: 0
-    m_SupportedDataModes: 
-    isAutomatic: 1
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_SerializedViewNames:
-  - UnityEditor.DeviceSimulation.SimulatorWindow
-  m_SerializedViewValues:
-  - C:\Users\chiar\Documents\GitHub\Dangerous-Dave-Revamp\Dangerous-Dave-Revamp\Library\PlayModeViewStates\38b6a956ef029f046ae799794363fbcc
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 736.6667, y: 300.66666}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -245.55557
-    m_HBaseRangeMax: 245.55557
-    m_VBaseRangeMin: -100.22222
-    m_VBaseRangeMax: 100.22222
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 736.6667
-      height: 300.66666
-    m_Scale: {x: 1.5, y: 1.5}
-    m_Translation: {x: 368.33334, y: 150.33333}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -245.55556
-      y: -100.22222
-      width: 491.1111
-      height: 200.44444
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1105, y: 482.5}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}

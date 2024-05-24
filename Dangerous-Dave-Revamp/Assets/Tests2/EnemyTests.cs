@@ -13,7 +13,7 @@ public class EnemyTests
         SceneManager.LoadScene("Level3");
         GameObject enemy = new GameObject();
         enemy.AddComponent<BoxCollider2D>();
-        GameStatus game = new GameStatus();
+        enemy.AddComponent<GameStatus>();
     }
     // A Test behaves as an ordinary method
     [Test]
@@ -40,18 +40,8 @@ public class EnemyTests
     {
         Setup();
         GameObject enemy = new GameObject();
-        GameStatus game = new GameStatus();
+        enemy.AddComponent<GameStatus>();
         // game.isEnemyFrozen = true;
         Assert.IsTrue(true);
-    }
-
-    // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-    // `yield return null;` to skip a frame.
-    [UnityTest]
-    public IEnumerator EnemyTestsWithEnumeratorPasses()
-    {
-        // Use the Assert class to test conditions.
-        // Use yield to skip a frame.
-        yield return null;
     }
 }
